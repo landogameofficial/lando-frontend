@@ -1,0 +1,264 @@
+.homemain-container {
+  background-color:#2a0944 ;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+ position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  z-index:1;
+  
+
+}
+.social-bar{
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  position: fixed;
+  top:50%;
+  right:0;
+  background-color:#3B185F;
+  padding:0.5rem;
+  z-index:2;
+  
+  transform: translateY(-50%);
+  border-top: 2px solid #FEC260;
+  border-left: 2px solid #FEC260;
+  border-bottom: 2px solid #FEC260;
+  border-radius:1rem 0 0 1rem;
+ animation: socialAnimation 3s ease normal;
+}
+
+.text-h {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-align: left;
+  width: 80%;
+  margin-left: 10%;
+  line-height: 1.4;
+  animation: textAnimation 3s ease normal;
+  font-size: 2rem;
+  margin-top: 5rem;
+  padding:0rem;
+  
+  
+  
+} 
+
+.text-p {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-align: left;
+  width: 80%;
+  line-height: 1.4;
+  animation: textAnimation 3s ease normal;
+  padding: 5rem 0;
+  font-size: 1.5rem;
+  margin-left:10%;
+  
+}
+.main-image {
+  display: none;
+}
+.main-image-mobile{
+
+  display: flex;
+  background-repeat: no-repeat;
+  width: auto;
+  right: 0rem;
+  height: 40vh;
+  position: absolute;
+  z-index: 0;
+  filter:opacity(50%)
+  
+}
+
+.h-contract {
+  text-align: center;
+  margin-top: 2rem;
+  padding:1rem;
+}
+
+.btn-contract {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 6rem;
+  line-height: 1.5rem;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(-180deg, #7a0bc0 -50%, #1a1a40 80%);
+  box-shadow: 0 0.1rem 1rem 0 rgb(250, 88, 182, 0.5),
+    0 -0.25rem 1.5rem rgba(110, 15, 155, 1) inset,
+    0 0.75rem 0.5rem rgba(255, 255, 255, 0.4) inset,
+    0 0.25rem 0.5rem 0 rgba(180, 70, 207, 1) inset;
+
+  }
+
+.btn-contract p1 {
+  font-size: 1rem;
+  padding:0.5rem;
+  color: #000000;
+  filter: drop-shadow(0 2px 2px #550066);
+}
+.btn-contract i {
+  cursor: pointer;
+  color: #000000;
+  font-size: 1.2rem;
+  padding:0.4rem ;
+  
+}
+.btn-contract i:hover{
+  color:#FEC260;
+}
+
+.btn-contract i:active {
+  color: #ffffff;
+}
+
+.btn-container{
+  display: block;
+  justify-content: center;
+  align-items:center;
+  
+}
+.btn-game{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  cursor: pointer;
+  width:15rem;
+  height:4.4rem;
+  margin-top: 3rem;
+}
+
+.btn-game p1{
+  font-size: 1.2rem;
+  padding:0.1rem;
+  color: #000000;
+  filter: drop-shadow(0 2px 2px #550066);
+
+}
+.btn-game:hover{
+  background-image: linear-gradient(-180deg, #7a0bc0 -50%, #A12568 80%);
+
+}
+
+/*for tablet*/
+@media screen and (min-width: 768px) {
+
+  .text-h {
+    width: 40vw;
+    font-size: 2.5rem;
+  
+  }
+  .text-p {
+    width: 50vw;
+    padding: 1rem;
+    padding-left:4rem;
+    margin-top:3rem;
+    margin-left: 0;
+    
+  }
+  .main-image-mobile{
+    display: none;
+  }
+  .main-image {
+    display: flex;
+    background-repeat: no-repeat;
+    right: 2rem;
+    height: 40vh;
+    top:5rem;
+    position: absolute;
+    z-index:-1;
+  }
+  .btn-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+  }
+  .btn-contract{
+    margin-left:4rem;
+
+  }
+  .h-contract{
+    margin-left:8.5rem;
+    text-align:left;
+    padding: 1rem 0;
+  }
+  .btn-game{
+    margin-top:0rem;
+  }
+
+}
+/*for Desktop*/
+@media screen and (min-width: 960px) {
+
+  .text-h {
+    width:48vw;
+    font-size: 2.5rem;
+  }
+  .text-p {
+    width: 50vw;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+  }
+  .main-image {
+    height: 45vh;
+    right: 2rem;
+    top: 1.5rem;
+    animation: imageAnimation 6s ease-in-out infinite alternate;
+  }
+
+  .btn-game{
+    margin-left:10rem;
+  }
+  /*big scren*/
+  @media screen and (min-width: 1200px) {
+    .text-h {
+      width:30vw;
+      font-size: 2.8rem;
+    }
+    .text-p {
+      width: 30vw;
+      font-size: 1.6rem;
+    }
+    .main-image{
+      height: 70vh;
+      right:5rem;
+    }
+  } 
+}
+@keyframes imageAnimation {
+  0% {
+    margin-top: 0rem;
+  }
+  100% {
+    margin-top: 1.5rem;
+  }
+}
+
+@keyframes textAnimation {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes socialAnimation {
+  0% {
+    
+    transform: translateY(-200%);
+  }
+  100% {
+    
+    transform: translateY(-50%);
+  }
+}
+
+

@@ -1,0 +1,9 @@
+.swap-container{
+    background-image: url("../../public/Background/background-swap.webp");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100vh;
+    
+
+}

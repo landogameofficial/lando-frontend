@@ -1,0 +1,44 @@
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:#2A0944;
+    
+}
+.item{
+    text-align: center;
+    background-color:#3B185F;
+    border:solid 2px #FEC260;
+    width:12rem;
+    margin:2rem;
+    border-radius:2rem;
+}
+.item:hover{
+    box-shadow: 0rem 0rem 1rem 1rem #A12568;
+}
+
+.name-item {
+    padding:1rem;
+    font-size: 1.2rem;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    border-top: 1px solid black;
+    
+}
+.img{
+    height:15rem;
+}
+.price-item{
+    display: inline-flex;
+    justify-content: center;
+    font-size: 1.2rem;
+
+}
+.weth-logo{
+    background-image:url("../../../assets/Collection/weth.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:0.8rem;
+    height: 1.2rem;
+    margin-left:0.3rem;
+}

@@ -1,0 +1,45 @@
+.teaser-container{
+  background-color:#2a0944 ;
+  height:100vh;
+}
+.teaser {
+  background-color:#2a0944 ;
+  width: 90vw;
+  margin-left: 5%;
+  height: 20rem;
+  margin-top: 4rem;
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #fff;
+  padding-top: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .teaser {
+    width: 80%;
+    margin-left: 10%;
+    height: 25rem;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .teaser {
+    width:60%;
+    margin-left:20%;
+    height: 40rem;
+
+  }
+}
+
+@keyframes header-roadmap {
+  0% {
+    text-shadow: 0 0 20px;
+  }
+  100% {
+    text-shadow: 0 0 0;
+    color: white;
+  }
+}

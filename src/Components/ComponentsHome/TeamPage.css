@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.team {
+  width: contain;
+  height: contain;
+  display: inline-block;
+  position: relative;
+  border: 1px solid;
+  background-color: #FEC260;
+  box-shadow: 0px 0px 20px #FA58B6;
+  border-radius: 10px;
+  margin: 2rem 0;
+  padding: 1rem;
+  
+}
+.team:hover {
+  box-shadow: 0px 0px 10px 10px #FA58B6;
+}
+.image {
+  width: 15rem;
+  height: 15rem;
+}
+
+.name-team,
+.name-position {
+  font-size: 1.2rem;
+  display: block;
+  color: rgb(0, 0, 0);
+  padding: 0.3rem 0;
+}
+
+.social-team {
+  color: rgb(0, 0, 0);
+  font-size: 1.8rem;
+  display: inline-block;
+}

@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+.btn-wallet {
+  font-family: "Times New Roman", Georgia, sans-serif, "PT Sans", "Times";
+  position: relative;
+  display: block;
+  margin-right: 2rem;
+  margin-left: auto;
+  top: 20px;
+  border-radius: 10px;
+  background-color: #29277c;
+  width: 12rem;
+  height: 4rem;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.address {
+  font-family: Georgia, sans-serif, "Times New Roman", "PT Sans", "Times";
+  display: flex;
+  justify-content: end;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.address-account {
+  padding: 5px;
+  font-size: 1rem;
+  text-align: center;
+
+}
+
+.chain {
+  font-family: Georgia, sans-serif, "Times New Roman", "PT Sans", "Times";
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #004900;
+  padding: 10px;
+  margin-right: 0px;
+}
+
+.chain p1 {
+  padding:5px;
+  color: #000;
+  font-size: 1rem;
+}
+
+
+.wrong-chain{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:2rem;
+  text-align: center;
+  font-size: 2.5rem;
+  color:red;
+ 
+
+  
+ 
+}
+.wrong-chain h1 {
+  font-size:1.5rem;
+  margin-top: 10px;
+}
+.wrong-chain p1{
+  color: rgb(0, 0, 0);
+  margin-top:2rem;
+  font-size: 1.5rem;
+
+}
+
+@media screen and (min-width:768px){
+  .address{
+    font-size:2.5rem;
+  }
+  .address-account{
+    font-size:2rem;
+  }
+  .chain{
+    font-size:3rem;
+  }
+  .chain p1{
+    font-size:2rem;
+  }
+}

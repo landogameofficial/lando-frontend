@@ -1,0 +1,53 @@
+.roadmap-container {
+  text-align: center;
+  margin: 30px 0px;
+  padding: 1rem;
+  color: white;
+  background-color: #3B185F;
+  border-radius: 10px;
+  background-image: linear-gradient(180deg, #333b5f 0%, #1A1A40 10%);
+  box-shadow: 0rem 0rem 1rem 0.2rem #3B185F;
+}
+.roadmap {
+  margin-top: 2rem;
+}
+
+.roadmap-container p1 {
+  font-size:1rem;
+  font-weight: 900;
+  margin-left: 5px;
+  color: #FA58B6;
+  filter: drop-shadow(0 2px 2px rgb(85, 0, 102));
+}
+.roadmap-container i {
+  color: #1E5128;
+}
+p1{
+  color:white;
+  
+}
+.page-roadmap{
+  background-color:#2a0944 ;
+}
+.title-roadmap{
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top:10rem;;
+
+}
+/*for tablet*/
+@media screen and (min-width: 768px) {
+  .roadmap-container {
+    width: 100%;
+  }
+}
+
+/*for desctop */
+@media screen and (min-width: 960px) {
+  .roadmap-container {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
