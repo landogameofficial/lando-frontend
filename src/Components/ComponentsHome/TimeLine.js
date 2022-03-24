@@ -7,6 +7,9 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import { StyledEngineProvider } from "@mui/material/styles";
 import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
+
+
 import "./TimeLine.css";
 const TimeLine = () => {
   return (
@@ -20,7 +23,7 @@ const TimeLine = () => {
 
           <TimelineContent>
             <p1>Q1 2022</p1>
-            <Fade right>
+            <Zoom top>
               <div className="roadmap-container">
                 <div>
                   <i class="fas fa-check-square" />
@@ -38,7 +41,7 @@ const TimeLine = () => {
                   <p1>Game Beta</p1>
                 </div>
               </div>
-            </Fade>
+            </Zoom>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -48,7 +51,7 @@ const TimeLine = () => {
           </TimelineSeparator>
           <TimelineContent>
           <p1>Q2 2022</p1>
-            <Fade left>
+            <Zoom top>
               <div className="roadmap-container">
                 <div>
                   <p1>Mint 3D asset</p1>
@@ -63,7 +66,7 @@ const TimeLine = () => {
                   <p1>NFT market</p1>
                 </div>
               </div>
-            </Fade>
+            </Zoom>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -73,7 +76,7 @@ const TimeLine = () => {
           </TimelineSeparator>
           <TimelineContent>
           <p1>Q3 2022</p1>
-            <Fade right>
+            <Zoom top>
               <div className="roadmap-container">
                 <div>
                   <p1>Rebranding</p1>
@@ -88,7 +91,7 @@ const TimeLine = () => {
                   <p1>Tallent for NFT</p1>
                 </div>
               </div>
-            </Fade>
+            </Zoom>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -98,7 +101,7 @@ const TimeLine = () => {
           </TimelineSeparator>
           <TimelineContent>
           <p1>Q4 2022</p1>
-            <Fade left>
+            <Zoom top>
               <div className="roadmap-container">
                 <div>
                   <p1>Publish game on IOS & Android</p1>
@@ -113,7 +116,7 @@ const TimeLine = () => {
                   <p1>NFT market</p1>
                 </div>
               </div>
-            </Fade>
+            </Zoom>
           </TimelineContent>
         </TimelineItem>
       </Timeline>
@@ -126,7 +129,7 @@ const RoadMap = () => {
     <>
       <div className="page-roadmap">
         <div className="title-roadmap">
-          <Fade top>
+          <Fade top >
             <h1>Roadmap</h1>
           </Fade>
         </div>

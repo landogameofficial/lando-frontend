@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import * as Scroll from "react-scroll";
 import "./Navbar.css";
 
 function Navbar() {
@@ -10,13 +11,7 @@ function Navbar() {
   const scrollHome = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
-  //scroll to bottom
-  const scrollToBottom = () => {
-    window.scrollTo({
-      top: document.documentElement.scrollHeight,
-      behavior: "smooth",
-    });
-  };
+
   return (
     <>
       <nav className="back-nav">
@@ -30,7 +25,7 @@ function Navbar() {
               closeMobileMenu();
             }}
           >
-            Meta Gun
+            Lando Game
           </Link>
           <div className="navbar-mainlogo"></div>
           <div className="menu-icon" onClick={handleClick}>
@@ -48,18 +43,6 @@ function Navbar() {
                 }}
               >
                 Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/"
-                className="nav-links"
-                onClick={() => {
-                  scrollToBottom();
-                  closeMobileMenu();
-                }}
-              >
-                Social
               </Link>
             </li>
 
@@ -89,6 +72,50 @@ function Navbar() {
               >
                 Swap
               </Link>
+            </li>
+            <li className="nav-item">
+              <Scroll.Link
+                to="roadmap"
+                spy={true}
+                duration={200}
+                smooth={true}
+                className="nav-links"
+                onClick={() => {
+                  closeMobileMenu();
+                }}
+              >
+                RoadMap
+              </Scroll.Link>
+            </li>
+
+            <li className="nav-item">
+              <Scroll.Link 
+                to="team"
+                spy={true}
+                duration={200}
+                smooth={true}
+                
+                className="nav-links"
+                onClick={() => {
+                  closeMobileMenu();
+                }}
+              >
+                Team
+              </Scroll.Link>
+            </li>
+            <li className="nav-item">
+              <Scroll.Link
+                to="partner"
+                spy={true}
+                duration={200}
+                smooth={true}
+                className="nav-links"
+                onClick={() => {
+                  closeMobileMenu();
+                }}
+              >
+                Partner
+              </Scroll.Link>
             </li>
           </ul>
         </div>

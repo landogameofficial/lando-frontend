@@ -8,7 +8,7 @@
   width: 100%;
   height: auto;
   z-index:1;
-  
+  padding-top:3rem;
 
 }
 .social-bar{
@@ -27,7 +27,6 @@
   border-left: 2px solid #FEC260;
   border-bottom: 2px solid #FEC260;
   border-radius:1rem 0 0 1rem;
- animation: socialAnimation 3s ease normal;
 }
 
 .text-h {
@@ -171,7 +170,7 @@
     background-repeat: no-repeat;
     right: 2rem;
     height: 40vh;
-    top:5rem;
+    top:10rem;
     position: absolute;
     z-index:-1;
   }
@@ -209,7 +208,7 @@
   .main-image {
     height: 45vh;
     right: 2rem;
-    top: 1.5rem;
+    top: 5rem;
     animation: imageAnimation 6s ease-in-out infinite alternate;
   }
 
@@ -229,6 +228,7 @@
     .main-image{
       height: 70vh;
       right:5rem;
+      top:5rem;
     }
   } 
 }
@@ -250,15 +250,6 @@
   }
 }
 
-@keyframes socialAnimation {
-  0% {
-    
-    transform: translateY(-200%);
-  }
-  100% {
-    
-    transform: translateY(-50%);
-  }
-}
+
 
 

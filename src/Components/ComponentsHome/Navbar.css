@@ -1,6 +1,8 @@
 .back-nav{
   background-color:#2A0944;
   width:100%;
+  position: fixed;
+  z-index:20;
   
 }
 .navbar {
@@ -10,7 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -79,6 +81,7 @@
 .menu-icon {
   display: none;
 }
+
 
 @media screen and (max-width: 960px) {
   .NavbarItems {

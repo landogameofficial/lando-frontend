@@ -38,6 +38,9 @@ p1{
 }
 /*for tablet*/
 @media screen and (min-width: 768px) {
+  .title-roadmap{
+    padding-top:15rem;
+  }
   .roadmap-container {
     width: 100%;
   }

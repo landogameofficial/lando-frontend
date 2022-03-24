@@ -1,6 +1,5 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import Flip from "react-reveal/Flip";
 import "./GamePlay.css";
 const GamePlay = () => {
   return (
