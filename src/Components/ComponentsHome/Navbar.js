@@ -14,112 +14,98 @@ function Navbar() {
 
   return (
     <>
-      <nav className="back-nav">
+      <nav className="back-navbar" >
         <div className="navbar">
-        <div className="navbar-container">
-          <Link
-            to="/"
-            className="navbar-logo"
-            onClick={() => {
-              scrollHome();
-              closeMobileMenu();
-            }}
-          >
-            Lando Game
-          </Link>
-          <div className="navbar-mainlogo"></div>
-          <div className="menu-icon" onClick={handleClick}>
+         <div className="content">
+          <p1 className="navbar-name">Lando Game</p1>
+          <div className="main-logo"></div>
+          <div className="menu-mobile" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
           
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
+          <div calssName="text-content">
+            <ul className={click ? "navbar-items active" : "navbar-items"}>
+            
               <Link
                 to="/"
-                className="nav-links"
+                className="link-navbar"
                 onClick={() => {
                   scrollHome();
                   closeMobileMenu();
                 }}
               >
-                Home
+                <li>
+                <p1 className="link-text">Home</p1>
+                </li>
               </Link>
-            </li>
-
-            <li className="nav-item">
               <Link
                 to="/marketplace"
-                className="nav-links"
-                onClick={closeMobileMenu}
+                className="link-navbar"
+                onClick={() => {
+                  closeMobileMenu();
+                }}
               >
-                Markets
-              </Link>
-            </li>
-            <li className="nav-item">
+                <li>
+                <p1 className="link-text">Markets</p1>
+                </li>
+              </Link>            
               <Link
                 to="/whitepaper"
-                className="nav-links"
+                className="link-navbar"
                 onClick={closeMobileMenu}
               >
-                White Paper
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/swap"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Swap
-              </Link>
-            </li>
-            <li className="nav-item">
+                <li>
+                  <p1 className="link-text">White Paper</p1>
+                </li>
+              </Link>           
               <Scroll.Link
                 to="roadmap"
                 spy={true}
                 duration={200}
                 smooth={true}
-                className="nav-links"
+                className="link-navbar"
                 onClick={() => {
                   closeMobileMenu();
                 }}
               >
-                RoadMap
+                <li>
+                  <p1 className="link-text">RoadMap</p1>
+                </li>
               </Scroll.Link>
-            </li>
-
-            <li className="nav-item">
               <Scroll.Link 
                 to="team"
                 spy={true}
                 duration={200}
                 smooth={true}
                 
-                className="nav-links"
+                className="link-navbar"
                 onClick={() => {
                   closeMobileMenu();
                 }}
               >
-                Team
+                <li >
+                  <p1 className="link-text">Team</p1>
+                  </li>
               </Scroll.Link>
-            </li>
-            <li className="nav-item">
               <Scroll.Link
                 to="partner"
                 spy={true}
                 duration={200}
                 smooth={true}
-                className="nav-links"
+                className="link-navbar"
                 onClick={() => {
                   closeMobileMenu();
                 }}
               >
-                Partner
+                <li>
+                  <p1 className="link-text">Partner</p1>
+                  </li>
               </Scroll.Link>
-            </li>
-          </ul>
-        </div>
-        </div>
+            </ul>
+          </div> 
+          </div> 
+         </div>
+
       </nav>
     </>
   );
