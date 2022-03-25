@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css"
 
@@ -34,7 +34,7 @@ const Header=()=> {
               closeMobileMenu();
             }}
           >
-            Vega Gun
+            Lando Game
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -46,7 +46,7 @@ const Header=()=> {
                 to="/"
                 className="nav-links"
                 onClick={() => {
-                  scrollHome();
+                  scrollToBottom();
                   closeMobileMenu();
                 }}
               >

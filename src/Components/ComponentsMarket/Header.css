@@ -15,7 +15,7 @@
   position: sticky;
   top: 0;
   z-index: 10;
-  border-radius:0px 0px 20px 20px;
+  border-radius:0px 0px 40px 40px;
 
 }
 
@@ -83,10 +83,6 @@
 }
 
 @media screen and (max-width: 960px) {
-  .NavbarItems {
-    position: relative;
-  }
-
   .nav-menu {
     display: table;
     flex-direction: column;
