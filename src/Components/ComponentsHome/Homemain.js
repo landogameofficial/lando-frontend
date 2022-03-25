@@ -15,7 +15,7 @@ const Homemain = () => {
   return (
     <>
       <div className="homemain-container">
-    
+        
         <div className="social-bar">
             <Jump>
             <a href="https://colorhunt.co/palette/2a09443b185fa12568fec260" target="_blank" className="social-icon-link"><i class='fab fa-github' /></a>

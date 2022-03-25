@@ -5,7 +5,7 @@
  position: relative;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 100vw;
   height: auto;
   z-index:1;
   padding-top:3rem;
@@ -228,7 +228,7 @@
     .main-image{
       height: 70vh;
       right:5rem;
-      top:5rem;
+      top:5rem
     }
   } 
 }
