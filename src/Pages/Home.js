@@ -8,12 +8,11 @@ import Team from "../Components/ComponentsHome/Team";
 import Partners from "../Components/ComponentsHome/Partners";
 import Footer from "../Components/ComponentsHome/Footer"
 import "./Home.css";
-import ScrollElement from "react-scroll/modules/mixins/scroll-element";
+
 function Home() {
   return (
     <div className="home">
       <Navbar />
-  
       <Homemain />
       <Scroll.Element  name="roadmap">
         <RoadMap />
