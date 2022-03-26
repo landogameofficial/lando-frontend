@@ -10,6 +10,7 @@ const Marketplace = () => {
   return (
     <div className="market-container">
       <Header />
+
       <Character />
       <Gun />
       <Handle />

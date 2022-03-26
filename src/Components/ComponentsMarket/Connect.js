@@ -1,19 +1,17 @@
 import { ethers } from "ethers";
 import { useState } from "react";
 import Web3Modal from "web3modal";
-import Form from "./From";
 import Swal from "sweetalert2";
-
+import "./Connect.css";
 const providerOptions = {
   // default connect to Metamask
 };
-
 const web3Modal = new Web3Modal({
   network: "mainnet", // optional
   cacheProvider: false, // optional
   providerOptions, // required
 });
-const ConnectTo = () => {
+export const ConnectTo = () => {
   //set connection handler
   const [account, setAccount] = useState({ connected: false });
   const [chainId, setChainId] = useState(null);
@@ -81,7 +79,7 @@ const ConnectTo = () => {
         <button onClick={ConnectWallet} className="btn-wallet">
           Connect Wallet
         </button>
-        <Form {...account} />
+        
       </div>
     );
   } else if (account.connected && chainId == 3) {
@@ -97,8 +95,6 @@ const ConnectTo = () => {
           <i class="fas fa-check-square"></i>
           <p1 className="chain">BSC Mainnet</p1>
         </div>
-
-        <Form {...account} />
       </div>
     );
   } else {
@@ -113,6 +109,21 @@ const ConnectTo = () => {
   }
 };
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function Connect() {
   return (
     <div className="contain">
@@ -121,3 +132,4 @@ function Connect() {
   );
 }
 export default Connect;
+

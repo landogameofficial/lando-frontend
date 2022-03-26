@@ -1,0 +1,74 @@
+* {
+  font-family: Georgia, sans-serif, "PT Sans", "Times";
+}
+
+.address{
+  display:flex;
+  align-items:center;
+  position:absolute;
+  font-size:2rem;
+  margin-top:80px;
+  padding:1rem;
+  right:0;justify-content: end;
+
+}
+.address i {
+  padding-left:0.5rem; 
+}
+.address p1{
+  font-size:1.2rem;
+}
+
+.balance{
+  position:absolute;
+  font-size:1.2rem;
+  margin-top:80px;
+  padding: 3.5rem 1rem;
+  right:0;
+  
+}
+
+.wrong-text p1{
+
+  position:absolute;
+  font-size:1.1rem;
+  margin-top:80px;
+  padding:0.5rem;
+  text-align:center;
+  color:rgb(255, 0, 0);
+  width:100%;
+}
+.text-network{
+  font-weight: 700;
+}
+
+
+.text-change{
+  top:1.8rem;
+  color:rgb(66, 2, 2)
+}
+
+
+  
+@media screen and (min-width: 768px){
+  .address{
+    font-size: 2.8rem;
+  }
+  .address p1{
+    font-size:1.8rem;
+  }
+  .balance{
+    left:0;
+    padding:1.5rem;
+    font-size:1.5rem;
+  }
+  .wrong-text p1{
+    font-size:1.8rem;
+    padding:1.5rem;
+  }
+  .text-change{
+    top:2.6rem;
+  }
+}
+
+
