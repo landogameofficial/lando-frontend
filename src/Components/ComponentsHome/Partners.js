@@ -2,16 +2,16 @@ import React from "react";
 import  Fade  from "react-reveal/Fade";
 import  LightSpeed  from "react-reveal/LightSpeed";
 import "./Partners.css"
-import partnerimage1 from"./../../assets/blockchaincapital.png"
-import partnerimage2 from"./../../assets/servlet.png"
-import partnerimage3 from"./../../assets/8decimalcapital.png"
-import partnerimage4 from "./../../assets/hasheversecapital.png";
-import partnerimage5 from"./../../assets/saheelcapital.png"
-import partnerimage6 from"./../../assets/exantech.png"
-import partnerimage7 from "./../../assets/stasis.png"
-import partnerimage8 from "./../../assets/x21digital.png"
-import partnerimage9 from "./../../assets/beetroot.png"
-import partnerimage10 from "./../../assets/aminocapital.png"
+import partnerimage1 from"./../../assets/Partners/blockchaincapital.png"
+import partnerimage2 from"./../../assets/Partners/servlet.png"
+import partnerimage3 from"./../../assets/Partners/8decimalcapital.png"
+import partnerimage4 from "./../../assets/Partners/hasheversecapital.png";
+import partnerimage5 from"./../../assets/Partners/saheelcapital.png"
+import partnerimage6 from"./../../assets/Partners/exantech.png"
+import partnerimage7 from "./../../assets/Partners/stasis.png"
+import partnerimage8 from "./../../assets/Partners/x21digital.png"
+import partnerimage9 from "./../../assets/Partners/beetroot.png"
+import partnerimage10 from "./../../assets/Partners/aminocapital.png"
 const Partners = () => {
   return (
     <>

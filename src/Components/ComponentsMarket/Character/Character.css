@@ -36,10 +36,10 @@
 
 }
 .weth-logo{
-    background-image:url("../../../assets/Collection/weth.png");
+    background-image:url("../../../assets/Collection/binance-logo.png");
     background-size:cover;
     background-repeat:no-repeat;
-    width:0.8rem;
+    width:1.2rem;
     height: 1.2rem;
     margin-left:0.3rem;
 }

@@ -3,14 +3,14 @@ import Fade from 'react-reveal/Fade';
 import Flip from 'react-reveal/Flip';
 import "./Team.css";
 import TeamPage from "./TeamPage";
-import image1 from "./../../assets/teamImage1.jpeg"
-import image2 from "./../../assets/teamImage2.jpeg"
-import image3 from "./../../assets/teamImage3.jpeg"
-import image4 from "./../../assets/teamImage4.jpeg"
-import image5 from "./../../assets/teamImage5.jpeg"
-import image6 from "./../../assets/teamImage6.jpeg"
-import image7 from "./../../assets/teamImage7.jpeg"
-import image8 from "./../../assets/teamImage8.jpeg"
+import image1 from "./../../assets/Team/teamImage1.jpeg"
+import image2 from "./../../assets/Team/teamImage2.jpeg"
+import image3 from "./../../assets/Team/teamImage3.jpeg"
+import image4 from "./../../assets/Team/teamImage4.jpeg"
+import image5 from "./../../assets/Team/teamImage5.jpeg"
+import image6 from "./../../assets/Team/teamImage6.jpeg"
+import image7 from "./../../assets/Team/teamImage7.jpeg"
+import image8 from "./../../assets/Team/teamImage8.jpeg"
 
 
 const Team = () => {
