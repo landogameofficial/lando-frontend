@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./Header.css"
+import Swal from "sweetalert2";
+import "./Header.css";
 
-const Header=()=> {
+function Header() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -10,73 +11,55 @@ const Header=()=> {
   const scrollHome = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
-  //scroll to bottom
-  const scrollToBottom = () => {
-    window.scrollTo({
-      top: document.documentElement.scrollHeight,
-      behavior: "smooth",
-    });
-  };
+  //alert for box
+  const alertBox = ()=>{
+    Swal.fire({
+      icon: "info",
+      title: "Comming Soon"
+    })}
+
   return (
     <>
-      <nav className="back-nav">
-        <div className="navbar-market">
-        <div className="navbar-container">
-
-          <Link to="/">
-          <div className="navbar-mainlogo"></div>
-          </Link>
-          <Link
-            to="/"
-            className="navbar-logo"
-            onClick={() => {
-              scrollHome();
-              closeMobileMenu();
-            }}
-          >
-            Lando Game
-          </Link>
-          <div className="menu-icon" onClick={handleClick}>
+      <nav className="back-navbar" >
+        <div className="navbar">
+         <div className="content">
+          <p1 className="navbar-name">Lando Game</p1>
+          <div className="main-logo"></div>
+          <div className="menu-mobile" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
           
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
+          <div calssName="text-content">
+            <ul className={click ? "navbar-items active" : "navbar-items"}>
+            
               <Link
                 to="/"
-                className="nav-links"
+                className="link-navbar"
                 onClick={() => {
-                  scrollToBottom();
+                  scrollHome();
                   closeMobileMenu();
                 }}
               >
-                Home
+                <li>
+                <p1 className="link-text">Home</p1>
+                </li>
               </Link>
-            </li>
+              
+  
+              <li className="link-navbar" onClick={()=>{closeMobileMenu(); alertBox()}}>
+                <p1 className="link-text">Lando Box</p1>
+              </li>
+                         
+      
+              <li className="link-navbar">
+                <p1 className="link-text">Connect Wallet</p1>
+              </li>
+                         
+            </ul>
+          </div> 
+          </div> 
+         </div>
 
-
-            <li className="nav-item">
-              <Link
-                to="/marketplace"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Box
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/marketplace"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Connect Wallet
-              </Link>
-            </li>
-          </ul>
-        </div>
-
-        </div>
       </nav>
     </>
   );
