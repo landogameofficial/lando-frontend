@@ -4,6 +4,7 @@
     justify-content: center;
     background-color:#2A0944;
     padding-top:10rem;
+    overflow-x: hidden;
     
 }
 .item{
@@ -39,7 +40,7 @@
     background-image:url("../../../assets/Collection/binance-logo.png");
     background-size:cover;
     background-repeat:no-repeat;
-    width:1.2rem;
-    height: 1.2rem;
+    width:1.5rem;
+    height: 1.5rem;
     margin-left:0.3rem;
 }

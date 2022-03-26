@@ -1,31 +1,24 @@
 let invoicesHandle = [
     {
       img:require("./../../../assets/Collection/Handle/Handle1.png"),
-      name: "Beretta",
-      number: 1,
-      amount: ["$10,800"],
-      due: "12/05/1995",
+      name: "Axe-A",
+      number: 1111,
     },
     {
       img:require("./../../../assets/Collection/Handle/Handle2.png"),
-      name: "Scar",
-      number: 2,
-      amount: "$8,000",
-      due: "10/31/2000",
+      name: "Axe-K",
+      number: 2222,
+
     },
     {
       img:require("./../../../assets/Collection/Handle/Handle3.png"),
-      name: "Nova",
-      number: 3,
-      amount: "$9,500",
-      due: "07/22/2003",
+      name: "Axe-W",
+      number: 3333,
     },
     {
         img:require("./../../../assets/Collection/Handle/Handle4.png"),
-        name: "Nova",
-        number: 3,
-        amount: "$9,500",
-        due: "07/22/2003",
+        name: "Axe-X",
+        number: 4444,
       },
     
 ];

@@ -1,9 +1,8 @@
-* {
+*{
   font-family: Georgia, sans-serif, "PT Sans", "Times";
 }
 
 .address{
-  display:flex;
   align-items:center;
   position:absolute;
   font-size:2rem;
@@ -35,7 +34,7 @@
   margin-top:80px;
   padding:0.5rem;
   text-align:center;
-  color:rgb(255, 0, 0);
+  color:#ff0000;
   width:100%;
 }
 .text-network{
@@ -45,7 +44,7 @@
 
 .text-change{
   top:1.8rem;
-  color:rgb(66, 2, 2)
+  color:#420202
 }
 
 
@@ -64,7 +63,7 @@
   }
   .wrong-text p1{
     font-size:1.8rem;
-    padding:1.5rem;
+    padding:2rem;
   }
   .text-change{
     top:2.6rem;

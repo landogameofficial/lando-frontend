@@ -1,24 +1,21 @@
 let invoicesSkill = [
     {
       img:require("./../../../assets/Collection/Skill/Skill1.png"),
-      name: "Beretta",
-      number: 1,
-      amount: ["$10,800"],
-      due: "12/05/1995",
+      name: "Resist Bullets",
+      number: 1011,
+
     },
     {
       img:require("./../../../assets/Collection/Skill/Skill2.png"),
-      name: "Scar",
-      number: 2,
-      amount: "$8,000",
-      due: "10/31/2000",
+      name: "Jump",
+      number: 2022,
+
     },
     {
       img:require("./../../../assets/Collection/Skill/Skill3.png"),
-      name: "Nova",
-      number: 3,
-      amount: "$9,500",
-      due: "07/22/2003",
+      name: "Throw Fire",
+      number: 3033,
+
     },
     
 ];
