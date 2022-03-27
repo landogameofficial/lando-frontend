@@ -2,7 +2,10 @@
     width:20rem;
 }
 .img-handle{
+    position:absolute;
     width:15rem;
-    padding:1rem;
+    padding:2rem;
+    transform: translateX(-50%);
+    
 }
 

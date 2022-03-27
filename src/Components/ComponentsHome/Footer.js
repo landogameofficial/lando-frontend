@@ -10,8 +10,8 @@ function Footer() {
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
-        <a href="mailto:vegagunofficial@gmail.com" className='footer-subscription-text'>
-          <i class="fas fa-envelope"/>&nbsp;&nbsp;vegagunofficial@gmail.com
+        <a href="mailto:landogameofficial@gmail.com" className='footer-subscription-text'>
+          <i class="fas fa-envelope"/>&nbsp;&nbsp;langogameofficial@gmail.com
           </a>
       </section>
       <div class='footer-links'>
@@ -40,10 +40,10 @@ function Footer() {
             <Link to='/' className='social-logo'>
               
               <div className='navbar-mainlogo'></div>
-              Vega Gun
+              Lando Game
             </Link>
           </div>
-          <small class='website-rights'>Vega Gun © 2022</small>
+          <small class='website-rights'>Lando Game © 2022</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

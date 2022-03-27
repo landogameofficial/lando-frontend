@@ -122,47 +122,47 @@ const Header = () => {
 
   return (
     <>
-      <nav className="back-navbar">
-        <div className="navbar">
-          <div className="content">
-            <p1 className="navbar-name">Lando Game</p1>
-            <div className="main-logo"></div>
-            <div className="menu-mobile" onClick={handleClick}>
+      <nav className="market-back-navbar">
+        <div className="market-navbar">
+          <div className="market-content">
+            <p1 className="market-navbar-name">Lando Game</p1>
+            <div className="market-main-logo"></div>
+            <div className="market-menu-mobile" onClick={handleClick}>
               <i className={click ? "fas fa-times" : "fas fa-bars"} />
             </div>
-            <div calssName="text-content">
-              <ul className={click ? "navbar-items active" : "navbar-items"}>
+            <div calssName="market-text-content">
+              <ul className={click ? "market-navbar-items active" : "market-navbar-items"}>
                 <Link
                   to="/"
-                  className="link-navbar"
+                  className="market-link-navbar"
                   onClick={() => {
                     scrollHome();
                     closeMobileMenu();
                   }}
                 >
                   <li>
-                    <p1 className="link-text">Home</p1>
+                    <p1 className="market-link-text">Home</p1>
                   </li>
                 </Link>
 
                 <li
-                  className="link-navbar"
+                  className="market-link-navbar"
                   onClick={() => {
                     closeMobileMenu();
                     alertBox();
                   }}
                 >
-                  <p1 className="link-text">Lando Box</p1>
+                  <p1 className="market-link-text">Lando Box</p1>
                 </li>
 
                 <li
-                  className="link-navbar"
+                  className="market-link-navbar"
                   onClick={() => {
                     closeMobileMenu();
                     ConnectWallet();
                   }}
                 >
-                  <p1 className="link-text">Connect Wallet</p1>
+                  <p1 className="market-link-text">Connect Wallet</p1>
                 </li>
               </ul>
             </div>

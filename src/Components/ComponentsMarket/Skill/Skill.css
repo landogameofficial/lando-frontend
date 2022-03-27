@@ -2,6 +2,8 @@
     width:20rem;
 }
 .img-skill{
+    position:absolute;
     width:15rem;
+    transform:translateX(-50%)
 }
 

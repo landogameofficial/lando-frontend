@@ -18,7 +18,7 @@ const Homemain = () => {
         
         <div className="social-bar">
             <Jump>
-            <a href="https://colorhunt.co/palette/2a09443b185fa12568fec260" target="_blank" className="social-icon-link"><i class='fab fa-github' /></a>
+            <a href="https://github.com/landogameofficial" target="_blank" className="social-icon-link"><i class='fab fa-github' /></a>
             <a href="https://colorhunt.co/palette/2a09443b185fa12568fec260" target="_blank" className="social-icon-link"><i class='fab fa-youtube' /></a>
             <a href="https://colorhunt.co/palette/2a09443b185fa12568fec260" target="_blank" className="social-icon-link"><i class='fab fa-twitter' /></a>
             <a href="https://colorhunt.co/palette/2a09443b185fa12568fec260" target="_blank" className="social-icon-link"><i class='fab fa-telegram-plane' /></a>

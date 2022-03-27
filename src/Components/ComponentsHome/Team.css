@@ -5,8 +5,8 @@
     font-size:3rem;
     color:aliceblue;
     text-align:center;
-    padding-top:10rem;
-    animation: header-animation 5s infinite ease-in alternate;
+    margin-top:10rem;
+    
   }
   
   .team-container{

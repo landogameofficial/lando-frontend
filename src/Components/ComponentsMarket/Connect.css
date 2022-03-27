@@ -1,14 +1,11 @@
-*{
-  font-family: Georgia, sans-serif, "PT Sans", "Times";
-}
-
 .address{
   align-items:center;
   position:absolute;
   font-size:2rem;
   margin-top:80px;
   padding:1rem;
-  right:0;justify-content: end;
+  right:0;
+
 
 }
 .address i {
@@ -16,6 +13,7 @@
 }
 .address p1{
   font-size:1.2rem;
+
 }
 
 .balance{
@@ -28,46 +26,37 @@
 }
 
 .wrong-text p1{
-
   position:absolute;
   font-size:1.1rem;
   margin-top:80px;
   padding:0.5rem;
   text-align:center;
-  color:#ff0000;
+  color:rgb(255, 0, 0);
   width:100%;
 }
 .text-network{
   font-weight: 700;
 }
 
-
 .text-change{
-  top:1.8rem;
-  color:#420202
+  top:1.5rem;
+  
 }
 
-
-  
-@media screen and (min-width: 768px){
+@media screen and (min-width:960px){
   .address{
-    font-size: 2.8rem;
+    font-size:2.5rem;
+
   }
+  
   .address p1{
-    font-size:1.8rem;
+    font-size:2rem;
+
   }
   .balance{
-    left:0;
-    padding:1.5rem;
     font-size:1.5rem;
-  }
-  .wrong-text p1{
-    font-size:1.8rem;
-    padding:2rem;
-  }
-  .text-change{
-    top:2.6rem;
+    padding:1.8rem;
+    left:0;
+
   }
 }
-
-

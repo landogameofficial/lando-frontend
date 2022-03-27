@@ -88,6 +88,7 @@
   text-decoration: none;
   padding:0.8rem;
   margin-top:1rem;
+  cursor: pointer;
   
 }
 
@@ -115,7 +116,7 @@
 /*desktop*/
 @media screen and (min-width: 960px){
   .navbar-name{
-    top:15px;
+    top:10px;
     font-size:1.5rem;
     margin-left:4rem;
   }
@@ -148,7 +149,7 @@
     transition: none;
   }
   .link-text{
-    font-size:1.4rem;
+    font-size:1.2rem;
     color:#FA58B6;
     
   }
@@ -174,6 +175,16 @@
 
 /*big screen*/
 @media screen and (min-width: 1200px){
+  .link-navbar{
+    padding: 0.8rem 1rem;
+
+  }
+  .link-text{
+    font-size:1.3rem;
+  }
+
+}
+@media screen and (min-width: 1400px){
   .navbar-name{
     font-size:2rem;
     margin-left: 5rem;
@@ -184,18 +195,13 @@
     top:0;
     gap:0;
   }
-
-
   .main-logo{
     padding:2.5rem;
     margin-left: 2rem;
   }
-  .text-item{
-    color:#FA58B6;
-    font-size:2rem;
-  }
   .link-navbar{
-    padding: 0.5rem 1.4rem;
+    padding: 0.5rem 1rem;
+    
   }
   .link-text{
     font-size:1.8rem;

@@ -17,7 +17,9 @@ function Home() {
       <Scroll.Element  name="roadmap">
         <RoadMap />
       </Scroll.Element>
-      <GamePlay />
+      <Scroll.Element  name="gameplay">
+        <GamePlay />
+      </Scroll.Element>
       <Scroll.Element name="team">
         <Team />
       </Scroll.Element>

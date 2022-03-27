@@ -18,7 +18,7 @@ const Team = () => {
     <>
         <div className="team-section">
             <Fade top>
-              <h1 className="team-header">About Team:</h1>
+              <h1 className="team-header">Team</h1>
             </Fade>
             <div className="team-container">
             <Flip top ><TeamPage name={"David Eraso"} img={image1} position={"Co-Founder"} social={"https://www.linkedin.com/in/amir-faraji-b58a80201"} /></Flip>

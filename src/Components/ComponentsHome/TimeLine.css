@@ -33,13 +33,16 @@ p1{
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  padding-top:10rem;;
+  margin-top:10rem;
+
+
 
 }
 /*for tablet*/
 @media screen and (min-width: 768px) {
   .title-roadmap{
-    padding-top:15rem;
+
+    margin-top:15rem;
   }
   .roadmap-container {
     width: 100%;

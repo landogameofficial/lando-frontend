@@ -1,11 +1,11 @@
 /*for mobile*/
-.back-navbar{
+.market-back-navbar{
   background-color:#2A0944;
   width:100vw;
   position: fixed;
   z-index:20;
 }
-.navbar {
+.market-navbar {
   font-family: Georgia, sans-serif, "PT Sans", "Times";
   background: #3B185F;
   height: 80px;
@@ -17,7 +17,7 @@
   z-index: 10;
   border-radius:0px 0px 40px 40px;
 }
-.navbar-name{
+.market-navbar-name{
   color: #000000;
   margin-left:0;
   font-size:1rem;
@@ -27,14 +27,14 @@
   transform: translate(25%, 50%);
   font-weight: 900;
 }
-.main-logo {  
+.market-main-logo {  
   background-image: url("./../../../public/Logo/mainLogo.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding:2rem;
   
 }
-.menu-mobile {
+.market-menu-mobile {
   display: block;
   position: absolute;
   top: 0;
@@ -44,7 +44,7 @@
   cursor: pointer;
   
 }
-.navbar-items {
+.market-navbar-items {
   display: table;
   flex-direction: column;
   justify-content: center;
@@ -59,7 +59,7 @@
   color:#000000;
 }
 
-.navbar-items.active {
+.market-navbar-items.active {
   background: #2A0944;
   height: 100vh;
   display: table;
@@ -76,7 +76,7 @@
   
 }
 
-.link-navbar {
+.market-link-navbar {
   width: 80%;
   display: block;
   text-align: center;
@@ -92,49 +92,41 @@
   
 }
 
-.link-navbar:hover {
+.market-link-navbar:hover {
   background-color: #000000;
   transition: all 0.4s ease-out;
   color: #ffffff;
 }
 
-.link-text  {
+.market-link-text  {
   font-size:1.5rem;
 
 }
 
 
 
-
-
-
-
- 
-
-
-
 /*desktop*/
 @media screen and (min-width: 960px){
-  .navbar-name{
+  .market-navbar-name{
     top:15px;
     font-size:1.5rem;
     margin-left:4rem;
   }
-  .navbar{
+  .market-navbar{
     display:flex;
     flex-direction:row;
     justify-content:center;
   }
-  .main-logo{
+  .market-main-logo{
     position:absolute;
     padding:2.5rem;
     left:1rem;
     top:0; 
   }
-  .menu-mobile{
+  .market-menu-mobile{
     display: none;
   }
-  .navbar-items {
+  .market-navbar-items {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -148,57 +140,47 @@
     list-style-type: none;
     transition: none;
   }
-  .link-text{
+  .market-link-text{
     font-size:1.4rem;
     color:#FA58B6;
     
   }
-
-
-.link-navbar {
+.market-link-navbar {
   width: auto;
   border:none;
-  
 }
-
-
-
-
-.link-navbar:hover {
+.market-link-navbar:hover {
   border-bottom: 4px solid #FA58B6;
   border-radius: 0px;
   transition: all 0.3s ease-out;
-  background-color: #00000000;
-    
+  background-color: #00000000;  
   }
 }
 
 /*big screen*/
 @media screen and (min-width: 1200px){
-  .navbar-name{
+  .market-navbar-name{
     font-size:2rem;
     margin-left: 5rem;
     top:0.2rem;
   }
-  .navbar-items{
+  .market-navbar-items{
     width:auto;
     top:0;
     gap:0;
   }
-
-
-  .main-logo{
+  .market-main-logo{
     padding:2.5rem;
     margin-left: 2rem;
   }
-  .text-item{
+  .market-text-item{
     color:#FA58B6;
     font-size:2rem;
   }
-  .link-navbar{
+  .market-link-navbar{
     padding: 0.5rem 1.4rem;
   }
-  .link-text{
+  .market-link-text{
     font-size:1.8rem;
   }
 
@@ -206,7 +188,7 @@
 
 /*small screen*/
 @media screen and (max-width:300px){
-  .navbar-name{
+  .market-navbar-name{
     display: none;
   }
 }
