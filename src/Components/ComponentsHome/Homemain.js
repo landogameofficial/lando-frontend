@@ -62,12 +62,12 @@ const Homemain = () => {
           </div>
         </div>
         <div className="main-image">
-          <image src={mainImag} alt="Image" />
-          <image src={mainImag2} alt="Image" />
-          <image src={mainImag3} alt="Image" />
+          <img src={mainImag} alt="background" />
+          <img src={mainImag2} alt="background" />
+          <img src={mainImag3} alt="background" />
         </div>
         <div className="main-image-mobile">
-          <image src={mainImag} alt="Image" />
+          <img src={mainImag} alt="background" />
         </div>
       </div>
     </>
