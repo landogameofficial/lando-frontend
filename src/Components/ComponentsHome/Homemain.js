@@ -1,7 +1,6 @@
 import React from "react";
-
+import {Link} from "react-router-dom";
 import Jump from "react-reveal/Jump";
-
 import "./Homemain.css";
 import mainImag from "./../../assets/mainImage1.png";
 import mainImag2 from "./../../assets/mainImage2.png";
@@ -18,10 +17,10 @@ const Homemain = () => {
         
         <div className="social-bar">
             <Jump>
-            <a href="https://github.com/landogameofficial" target="_blank" className="social-icon-link"><i class='fab fa-github' /></a>
-            <a href="https://colorhunt.co/palette/2a09443b185fa12568fec260" target="_blank" className="social-icon-link"><i class='fab fa-youtube' /></a>
-            <a href="https://colorhunt.co/palette/2a09443b185fa12568fec260" target="_blank" className="social-icon-link"><i class='fab fa-twitter' /></a>
-            <a href="https://colorhunt.co/palette/2a09443b185fa12568fec260" target="_blank" className="social-icon-link"><i class='fab fa-telegram-plane' /></a>
+            <a href="https://github.com/landogameofficial" rel="noreferrer"target="_blank" className="social-icon-link"><i class='fab fa-github' /></a>
+            <a href="https://colorhunt.co/palette/2a09443b185fa12568fec260" rel="noreferrer" target="_blank" className="social-icon-link"><i class='fab fa-youtube' /></a>
+            <a href="https://colorhunt.co/palette/2a09443b185fa12568fec260" rel="noreferrer" target="_blank" className="social-icon-link"><i class='fab fa-twitter' /></a>
+            <a href="https://colorhunt.co/palette/2a09443b185fa12568fec260" rel="noreferrer" target="_blank" className="social-icon-link"><i class='fab fa-telegram-plane' /></a>
             </Jump>
         </div>
         
@@ -54,19 +53,21 @@ const Homemain = () => {
                   <i onClick={copyText} class="fas fa-copy" />
                 </p1>
               </div>
+              <Link className="link-game" target="_blanke" to="/playgame">
               <div className="btn-contract btn-game">
                 <p1>Play Game</p1>
               </div>
+              </Link>
             </div>
           </div>
         </div>
         <div className="main-image">
-          <img src={mainImag} alt="Image" />
-          <img src={mainImag2} alt="Image" />
-          <img src={mainImag3} alt="Image" />
+          <image src={mainImag} alt="Image" />
+          <image src={mainImag2} alt="Image" />
+          <image src={mainImag3} alt="Image" />
         </div>
         <div className="main-image-mobile">
-          <img src={mainImag} alt="Image" />
+          <image src={mainImag} alt="Image" />
         </div>
       </div>
     </>

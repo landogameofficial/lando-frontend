@@ -133,6 +133,9 @@
   height:4.4rem;
   margin-top: 3rem;
 }
+.link-game{
+  text-decoration: none;
+}
 
 .btn-game p1{
   font-size: 1.2rem;
