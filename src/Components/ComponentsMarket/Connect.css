@@ -1,3 +1,6 @@
+*{
+  font-family: Georgia, sans-serif, "PT Sans", "Times";
+}
 .address{
   align-items:center;
   position:absolute;
@@ -58,5 +61,12 @@
     padding:1.8rem;
     left:0;
 
+  }
+  .wrong-text p1 {
+    font-size:1.6rem;
+  }
+  .text-change{
+    top:3rem;
+    
   }
 }
