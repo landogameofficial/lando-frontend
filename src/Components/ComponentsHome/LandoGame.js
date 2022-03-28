@@ -8,7 +8,7 @@ class LandoGame extends React.Component {
         <div className="header-game">This game is a Lando game demo</div>
         <div>
           <object
-            aria-labelledby="label1"
+            aria-labelledby="label"
             className="lando-game"
             type="text/html"
             data="https://venge.io"
