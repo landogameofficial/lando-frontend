@@ -33,6 +33,7 @@
   background-repeat: no-repeat;
   padding:2rem;
   
+  
 }
 .menu-mobile {
   display: block;
@@ -109,8 +110,6 @@
 
 
 
- 
-
 
 
 /*desktop*/
@@ -127,9 +126,10 @@
   }
   .main-logo{
     position:absolute;
-    padding:2.5rem;
+    padding:2.2rem;
     left:1rem;
-    top:0; 
+    top:0;
+    margin-top:5px;
   }
   .menu-mobile{
     display: none;
@@ -196,7 +196,7 @@
     gap:0;
   }
   .main-logo{
-    padding:2.5rem;
+    padding:2.3rem;
     margin-left: 2rem;
   }
   .link-navbar{
