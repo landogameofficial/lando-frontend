@@ -51,6 +51,7 @@ function Navbar() {
                 <a
                   href="https:docs.landogame.com"
                   target="_blank"
+                  rel="noreferrer"
                   className="link-navbar"
                   onClick={closeMobileMenu}
                 >

@@ -1,8 +1,7 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './Footer.css';
-
 import { Link } from 'react-router-dom';
-import Swal from "sweetalert2"
+
 function Footer() {
   
 
@@ -11,37 +10,35 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <a href="mailto:landogameofficial@gmail.com" className='footer-subscription-text'>
-          <i class="fas fa-envelope"/>&nbsp;&nbsp;langogameofficial@gmail.com
+          <i class="fas fa-envelope"/>&nbsp;langogameofficial@gmail.com
           </a>
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/'>How to buy </Link>
-            <Link to='/'>Details game</Link>
-            <Link to='/'>Contact Us</Link>
-            <Link to='/'>Investors</Link>
+            <h2>How to</h2>
+            <Link to='/'>Participation in IDO NFT</Link>
+            <Link to='/'>Participation in IDO</Link>
+            <Link to='/'>Buy token </Link>
+            
+            
+
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <h2>Developer</h2>
+            <Link to='/'>Documentation</Link>
+            <Link to='/'>Game Contract</Link>
+            <Link to='/'>Github</Link>
           </div>
         </div>
       </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
-          <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-              
-              <div className='navbar-mainlogo'></div>
+          <div class='social-logo'>
+              <div className='main-logo-footer'></div>
               Lando Game
-            </Link>
           </div>
           <small class='website-rights'>Lando Game © 2022</small>
           <div class='social-icons'>
