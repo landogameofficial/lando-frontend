@@ -48,15 +48,16 @@ function Navbar() {
                     <p1 className="link-text">Markets</p1>
                   </li>
                 </Link>
-                <Link
-                  to="/whitepaper"
+                <a
+                  href="https:docs.landogame.com"
+                  target="_blank"
                   className="link-navbar"
                   onClick={closeMobileMenu}
                 >
                   <li>
                     <p1 className="link-text">White Paper</p1>
                   </li>
-                </Link>
+                </a>
                 <Scroll.Link
                   to="roadmap"
                   spy={true}
