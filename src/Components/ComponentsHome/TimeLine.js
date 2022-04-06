@@ -8,9 +8,8 @@ import TimelineDot from "@mui/lab/TimelineDot";
 import { StyledEngineProvider } from "@mui/material/styles";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
-
-
 import "./TimeLine.css";
+
 const TimeLine = () => {
   return (
     <div>
@@ -27,7 +26,7 @@ const TimeLine = () => {
               <div className="roadmap-container">
                 <div>
                   <i class="fas fa-check-square" />
-                  <p1 className="text">Website V1</p1>
+                  <p1 className="text">Wesite Launch</p1>
                 </div>
                 <div>
                   <i class="fas fa-check-square" />
@@ -35,10 +34,11 @@ const TimeLine = () => {
                 </div>
                 <div>
                   <i class="fas fa-check-square" />
-                  <p1>ICO & IDO</p1>
+                  <p1>Private Sales</p1>
                 </div>
                 <div>
-                  <p1>Game Beta</p1>
+                  <i class="fas fa-check-square" />
+                  <p1>Marketing strategy</p1>
                 </div>
               </div>
             </Zoom>
@@ -54,16 +54,16 @@ const TimeLine = () => {
             <Zoom top>
               <div className="roadmap-container">
                 <div>
-                  <p1>Mint 3D asset</p1>
+                  <p1>IDO</p1>
                 </div>
                 <div>
-                  <p1>Advertising</p1>
+                  <p1>Design 3D Asset</p1>
                 </div>
                 <div>
-                  <p1>Game v2</p1>
+                  <p1>NFT Box</p1>
                 </div>
                 <div>
-                  <p1>NFT market</p1>
+                  <p1>Alpha Test</p1>
                 </div>
               </div>
             </Zoom>
@@ -78,17 +78,17 @@ const TimeLine = () => {
           <p1>Q3 2022</p1>
             <Zoom top>
               <div className="roadmap-container">
-                <div>
-                  <p1>Rebranding</p1>
+              <div>
+                  <p1> Lunch Marketplace</p1>
                 </div>
                 <div>
-                  <p1>Earn NFT in game</p1>
+                  <p1>Develop Game Contract</p1>
                 </div>
                 <div>
-                  <p1>Add 3D assets in game</p1>
+                  <p1>Beta Test</p1>
                 </div>
                 <div>
-                  <p1>Tallent for NFT</p1>
+                  <p1>Publish game for  PC & Web </p1>
                 </div>
               </div>
             </Zoom>
@@ -104,16 +104,16 @@ const TimeLine = () => {
             <Zoom top>
               <div className="roadmap-container">
                 <div>
-                  <p1>Publish game on IOS & Android</p1>
+                  <p1>Publish game for IOS & Android</p1>
                 </div>
                 <div>
-                  <p1>Multiply game</p1>
+                  <p1>PvP Lunch</p1>
                 </div>
                 <div>
-                  <p1>Earn MEG on game</p1>
+                  <p1>Branding</p1>
                 </div>
                 <div>
-                  <p1>NFT market</p1>
+                  <p1>Add New Map</p1>
                 </div>
               </div>
             </Zoom>
