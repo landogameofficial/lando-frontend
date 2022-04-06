@@ -1,11 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { Link } from 'react-router-dom';
-
 function Footer() {
-  
-
-  
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
@@ -16,21 +11,21 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>How to</h2>
-            <Link to='/'>Participation in IDO NFT</Link>
-            <Link to='/'>Participation in IDO</Link>
-            <Link to='/'>Buy token </Link>
+            <h2>Details</h2>
+            <a href="https://docs.landogame.com/faq/how-to-partner-in-nft-sales" target="_blank" rel="noreferrer">Participation in NFT Persale</a>
+            <a href="https://docs.landogame.com/faq/how-to-partner-in-ido" target="_blank" rel="noreferrer">Participation in IDO</a>
+            <a href="https://docs.landogame.com/tokenomics" target="_blank" rel="noreferrer">Tokenomics</a>
+            <a href="https://docs.landogame.com/game-details/types-of-the-nfts-in-the-game" target="_blank" rel="noreferrer">NFT Details</a>
             
-            
-
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Developer</h2>
-            <Link to='/'>Documentation</Link>
-            <Link to='/'>Game Contract</Link>
-            <Link to='/'>Github</Link>
+            <a href="https://docs.landogame.com/concept/overview" target="_blank" rel="noreferrer">Documentation</a>
+            <a href="https://docs.landogame.com/concept/problems-and-solutions" target="_blank" rel="noreferrer">Game Contract</a>
+            <a href="https://docs.landogame.com/game-details/how-to-earn-money" target="_blank" rel="noreferrer">Earn Rules</a>
+            <a href="https://github.com/landogameofficial" target="_blank" rel="noreferrer">Github</a>
           </div>
         </div>
       </div>
@@ -42,38 +37,41 @@ function Footer() {
           </div>
           <small class='website-rights'>Lando Game © 2022</small>
           <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='/'
+            <a
+              class='social-icon-link'
+              href="https://github.com/landogameofficial"
               target='_blank'
-              aria-label='Facebook'
+              rel="noreferrer"
             >
               <i class='fab fa-github' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
+            </a>
+            <a
+              class='social-icon-link'
+              href="https://www.youtube.com/channel/UCkf0baLkUqnvRQVXWJ1766Q"
               target='_blank'
               aria-label='Youtube'
+              rel="noreferrer"
             >
               <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
+            </a>
+            <a
+              class='social-icon-link'
+              href="https://twitter.com/Lando_game"
               target='_blank'
               aria-label='Twitter'
+              rel="noreferrer"
             >
               <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
+            </a>
+            <a
+              class='social-icon-link'
+              href="https://t.me/landogame"
               target='_blank'
-              aria-label='LinkedIn'
+              aria-label='Telegram'
+              rel="noreferrer"
             >
               <i class='fab fa-telegram-plane' />
-            </Link>
+            </a>
           </div>
         </div>
       </section>

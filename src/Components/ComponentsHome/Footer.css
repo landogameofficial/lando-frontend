@@ -19,7 +19,6 @@
     color: #fff;
   }
 
-  
   .footer-links {
     width: 100%;
     max-width: 1000px;
@@ -49,21 +48,17 @@
     color: #fff;
     text-align: center;
   }
-  
+
   .footer-link-items a {
     color: #fff;
     text-decoration: none;
-    margin-bottom: 0.5rem;
-
+    margin-bottom: 0.7rem;
     text-align: center;
   }
-  
-  
+
   .footer-email-form h2 {
     margin-bottom: 2rem;
   }
-  
-
   
   /* Social Icons */
   .social-icon-link {
@@ -108,8 +103,7 @@
     color: #fff;
     margin-bottom: 16px;
   }
-  .main-logo-footer{
-      
+  .main-logo-footer{ 
     background-image: url("./../../../public/Logo/mainLogo.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -126,7 +120,7 @@
     }
   
     .btn {
-      width: 100%;
+    width: 100%;
     }
   
     .footer-link-wrapper {
@@ -148,9 +142,11 @@
       box-sizing: border-box;
       font-size:1rem;
     }
+
     .footer-subscription-text {
       font-size: 2rem;
     }
+    
     .footer-link-items {
       margin: 30px;
     }
