@@ -21,16 +21,15 @@ const Team = () => {
               <h1 className="team-header">Team</h1>
             </Fade>
             <div className="team-container">
-            <Flip top ><TeamPage name={"David Eraso"} img={image1} position={"Co-Founder"} social={"https://www.linkedin.com/in/amir-faraji-b58a80201"} /></Flip>
-            <Flip top ><TeamPage name={"Shubham Kunbi"} img={image2} position={"Web Developer"} social={"https://www.linkedin.com/in/shubham-kunbi-7a0ba7179"} /></Flip>
-            <Flip top ><TeamPage name={"Zeekg"} img={image3} position={"Web Developer"} social={"https://github.com/Zeekg-zk"} linkedin={"false"} /></Flip>
-            <Flip top ><TeamPage name={"Bay"} img={image4} position={"Game Developer"} social={"https://github.com/Unity7"} linkedin={"false"}/></Flip>
-            <Flip top ><TeamPage name={"Sunayanaa Rreddy"} img={image5} position={"3D Designer"} social={"https://www.linkedin.com/in/sunayanaa-rreddy-895bb8176"} /></Flip>
-            <Flip top ><TeamPage name={"Almra  Qauter"} img={image6} position={"Game Developer"} social={"https://github.com/UnityNinja"} linkedin={"false"} /></Flip>
-            <Flip top ><TeamPage name={"Mico Richa"} img={image7} position={"Blockchain Developer"} social={"https://google.com"} linkedin={"false"} /></Flip>
-            <Flip top ><TeamPage name={"Kate Anos"} img={image8} position={"Advertising Manager"} social={"https://www.linkedin.com/in/katherinebanos"} /></Flip>
+            <Flip top ><TeamPage name={"David Eraso"} img={image1} position={"Co-Founder"} className="mytest" social={"https://www.linkedin.com/in/amir-faraji-b58a80201"} socialLogo={"fab fa-twitter"} /></Flip>
+            <Flip top ><TeamPage name={"Shubham Kunbi"} img={image2} position={"Web Developer"} social={"https://www.linkedin.com/in/shubham-kunbi-7a0ba7179"} socialLogo={"fab fa-linkedin"} /></Flip>
+            <Flip top ><TeamPage name={"Zeekg"} img={image3} position={"Web Developer"} social={"https://github.com/Zeekg-zk"} socialLogo={"fab fa-github"} /></Flip>
+            <Flip top ><TeamPage name={"Bay"} img={image4} position={"Game Developer"} social={"https://github.com/Unity7"} socialLogo={"fab fa-github"}/></Flip>
+            <Flip top ><TeamPage name={"Sunayanaa Rreddy"} img={image5} position={"3D Designer"} social={"https://www.linkedin.com/in/sunayanaa-rreddy-895bb8176"} socialLogo={"fab fa-linkedin"} /></Flip>
+            <Flip top ><TeamPage name={"Almra  Qauter"} img={image6} position={"Game Developer"} social={"https://github.com/UnityNinja"} socialLogo={"fab fa-github"} /></Flip>
+            <Flip top ><TeamPage name={"Mico Richa"} img={image7} position={"Blockchain Developer"} social={"https://github.com/barsome"} socialLogo={"fab fa-github"} /></Flip>
+            <Flip top ><TeamPage name={"Kate Anos"} img={image8} position={"Advertising Manager"} social={"https://www.linkedin.com/in/katherinebanos"}socialLogo={"fab fa-linkedin"}/></Flip>
             </div>
-        
         </div >
     
     </>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./TeamPage.css";
-const TeamPage = ({ name, img, position, social, linkedin }) => {
+const TeamPage = ({ name, img, position, social, socialLogo }) => {
   return (
     <>
       <div className="team">
@@ -13,7 +13,7 @@ const TeamPage = ({ name, img, position, social, linkedin }) => {
           rel="noopener noreferrer"
           href={social}
         >
-          <i class={linkedin ? "fab fa-github" : "fab fa-linkedin"} />
+          <i class={socialLogo} />
         </a>
       </div>
     </>
