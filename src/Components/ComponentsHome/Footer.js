@@ -1,6 +1,12 @@
 import React from 'react';
 import './Footer.css';
 function Footer() {
+  const scrollBottom = ()=>{
+    window.scrollTo({
+      top:0,
+      behavior:"smooth",
+    })
+  }
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
@@ -12,7 +18,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Details</h2>
-            <a href="https://docs.landogame.com/faq/how-to-partner-in-nft-sales" target="_blank" rel="noreferrer">Participation in NFT Persale</a>
+            <a href="https://docs.landogame.com/faq/how-to-partner-in-nft-sales" target="_blank" rel="noreferrer">Participation in NFT Presell</a>
             <a href="https://docs.landogame.com/faq/how-to-partner-in-ido" target="_blank" rel="noreferrer">Participation in IDO</a>
             <a href="https://docs.landogame.com/tokenomics" target="_blank" rel="noreferrer">Tokenomics</a>
             <a href="https://docs.landogame.com/game-details/types-of-the-nfts-in-the-game" target="_blank" rel="noreferrer">NFT Details</a>
@@ -31,7 +37,7 @@ function Footer() {
       </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
-          <div class='social-logo'>
+          <div onClick={scrollBottom} class='social-logo'>
               <div className='main-logo-footer'></div>
               Lando Game
           </div>
