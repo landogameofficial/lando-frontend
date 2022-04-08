@@ -26,7 +26,7 @@ const TimeLine = () => {
               <div className="roadmap-container">
                 <div>
                   <i class="fas fa-check-square" />
-                  <p1 className="text">Wesite Launch</p1>
+                  <p1 className="text">Website Launch</p1>
                 </div>
                 <div>
                   <i class="fas fa-check-square" />
@@ -38,7 +38,7 @@ const TimeLine = () => {
                 </div>
                 <div>
                   <i class="fas fa-check-square" />
-                  <p1>Marketing strategy</p1>
+                  <p1>Marketing Strategy</p1>
                 </div>
               </div>
             </Zoom>

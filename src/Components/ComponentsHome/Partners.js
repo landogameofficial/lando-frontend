@@ -20,7 +20,7 @@ const Partners = () => {
           <h1 className="partners-header">Partners</h1>
       </Fade>
       <div className="partners-container">
-        <LightSpeed><a href="https://www.blockchain.capital/" target="_blank" rel="noreferrer" ><img src={partnerimage1} alt="partner image1"/></a></LightSpeed>
+        <LightSpeed><a href="https://www.blockchain.capital/" target="_blank" rel="noreferrer"  ><img src={partnerimage1} alt="partner image1"/></a></LightSpeed>
         <LightSpeed><a href="https://www.kaleido.io/" target="_blank" rel="noreferrer" ><img src={partnerimage2} alt="partner image2" /></a></LightSpeed>
         <LightSpeed><a href="https://www.8dcapital.com/" target="_blank" rel="noreferrer" ><img src={partnerimage3} alt="partner image3" /></a></LightSpeed>
         <LightSpeed><a href="https://www.hashversecapital.com/" target="_blank" rel="noreferrer" ><img src={partnerimage4} alt="partner image4" /></a></LightSpeed>
