@@ -9,9 +9,9 @@ const App = () => {
     <>
         <Router>
           <Routes>
-            <Route className path="/" exact element={<Home />} />
-            <Route className path="/playgame" exact element={<LandoGame />} />
-            <Route path="/marketplace/" element={<Marketplace />}>
+            <Route  path="/" exact element={<Home />} />
+            <Route path="/playgame" exact  element={<LandoGame />} />
+            <Route path="/marketplace" exact element={<Marketplace />}>
             </Route>
           </Routes>
         </Router>

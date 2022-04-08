@@ -1,7 +1,6 @@
 import React from "react";
 import "./LandoGame.css";
 class LandoGame extends React.Component {
-
   render() {
     return (
       <div className="game-container">
