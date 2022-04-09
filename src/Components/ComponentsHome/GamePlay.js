@@ -8,14 +8,14 @@ const GamePlay = () => {
         <Fade top>
           <h1>GamePlay</h1>
         </Fade>
-          <iframe
-            className="teaser"
-            src="https://www.youtube.com/embed/Vj5_TQs107I?start=20"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+        <iframe
+          className="teaser"
+          src="https://www.youtube.com/embed/KizuMLwAncA"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
     </>
   );
