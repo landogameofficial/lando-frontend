@@ -11,7 +11,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <a href="mailto:landogameofficial@gmail.com" className='footer-subscription-text'>
-          <i class="fas fa-envelope"/>&nbsp;langogameofficial@gmail.com
+          <i class="fas fa-envelope"/>&nbsp;landogameofficial@gmail.com
           </a>
       </section>
       <div class='footer-links'>
