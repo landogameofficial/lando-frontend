@@ -21,7 +21,7 @@ const Team = () => {
               <h1 className="team-header">Team</h1>
             </Fade>
             <div className="team-container">
-            <Flip top ><TeamPage name={"David Eraso"} img={image1} position={"Co-Founder"} className="mytest" social={"https://www.linkedin.com/in/amir-faraji-b58a80201"} socialLogo={"fab fa-twitter"} /></Flip>
+            <Flip top ><TeamPage name={"David Eraso"} img={image1} position={"Co-Founder"} className="mytest" social={"https://twitter.com/daviderasoo"} socialLogo={"fab fa-twitter"} /></Flip>
             <Flip top ><TeamPage name={"Shubham Kunbi"} img={image2} position={"Web Developer"} social={"https://www.linkedin.com/in/shubham-kunbi-7a0ba7179"} socialLogo={"fab fa-linkedin"} /></Flip>
             <Flip top ><TeamPage name={"Zeekg"} img={image3} position={"Web Developer"} social={"https://github.com/Zeekg-zk"} socialLogo={"fab fa-github"} /></Flip>
             <Flip top ><TeamPage name={"Bay"} img={image4} position={"Game Developer"} social={"https://github.com/Unity7"} socialLogo={"fab fa-github"}/></Flip>
