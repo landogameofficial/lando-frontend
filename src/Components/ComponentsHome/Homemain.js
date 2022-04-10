@@ -6,11 +6,11 @@ import mainImag from "./../../assets/mainImage1.png";
 import mainImag2 from "./../../assets/mainImage2.png";
 import mainImag3 from "./../../assets/mainImage3.png";
 const Homemain = () => {
-  const copyText = async () => {
+  /*const copyText = async () => {
     await navigator.clipboard.writeText(
       "0xB8c77482e45F1F44dE1745F52C74426C631bDD52"
     );
-  };
+  };*/
   return (
     <>
       <div className="homemain-container">
@@ -74,8 +74,8 @@ const Homemain = () => {
             <div className="btn-container">
               <div className="btn-contract">
                 <p1>
-                  0xB8c77482e45F....bDD52
-                  <i onClick={copyText} class="fas fa-copy" />
+                  The contract isn't released yet
+                  <i  class="fas fa-copy" />
                 </p1>
               </div>
               <Link className="link-game" target="_blanke" to="/playgame">

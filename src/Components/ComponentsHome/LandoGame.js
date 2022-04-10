@@ -4,7 +4,7 @@ class LandoGame extends React.Component {
   render() {
     return (
       <div className="game-container">
-        <div className="header-game">This game is a Lando game demo</div>
+        <div className="header-game">This game is Venge.io that is a Lando demo</div>
         <div>
           <object
             aria-labelledby="label"
