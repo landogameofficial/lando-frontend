@@ -94,7 +94,7 @@ const Header = () => {
   const ConnectInfo = () => {
     if (!account.connected) {
       return <div></div>;
-    } else if (account.connected && chainId === 3) {
+    } else if (account.connected && chainId === 56) {
       return (
         <>
           <div className="address">
